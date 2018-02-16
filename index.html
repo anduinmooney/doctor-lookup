@@ -12,12 +12,15 @@
   <body>
     <h1>Find a doctor that suites you!</h1>
     <form id="doctor-form">
-        <label for="doctor-name">Name of specific doctor (First and Last, leave blank if you'd like a list of all doctors)</label>
-        <input id="doctor-name" value="name" type="text">
+        <label for="doctor-name">Name of specific doctor (First and/or Last, leave blank if you'd like a list of all doctors)</label>
+        <input id="doctor-name" value="" type="text">
+        <br>
         <label for="limit">Search Limit Size (How many doctors would you like to be returned?)</label>
         <input id="limit" value="20" type="number">
-        <label for="limit">Search by medical issue (return doctors that specialize in your medical issue)</label>
-        <input id="limit" value="20" type="number">
+        <br>
+        <label for="medical-issue">Search by medical issue (return doctors that specialize in your medical issue)</label>
+        <input id="medical-issue" value="Flu" type="text">
+        <br>
         <button type="submit">Submit form</button>
       </form>
       <p id="result"></p>
