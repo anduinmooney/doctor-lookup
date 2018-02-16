@@ -1,0 +1,22 @@
+{
+  "name": "doctor-lookup",
+  "description": "",
+  "main": "index.html",
+  "authors": [
+    "Anduin Mooney"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/anduinmooney/doctor-lookup",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.3.1",
+    "bootstrap": "^4.0.0",
+    "moment": "^2.20.1"
+  }
+}
