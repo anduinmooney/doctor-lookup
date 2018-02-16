@@ -10,8 +10,9 @@
     <title>Doctor Lookup</title>
   </head>
   <body>
-    <h1>Find a doctor that suites you!</h1>
-    <form id="doctor-form">
+    <div class = "container">
+      <h1>Find a doctor that suites you!</h1>
+      <form id="doctor-form">
         <label for="doctor-name">Name of specific doctor (First and/or Last, leave blank if you'd like a list of all doctors)</label>
         <input id="doctor-name" value="" type="text">
         <br>
@@ -19,10 +20,12 @@
         <input id="limit" value="20" type="number">
         <br>
         <label for="medical-issue">Search by medical issue (return doctors that specialize in your medical issue)</label>
-        <input id="medical-issue" value="Flu" type="text">
+        <input id="medical-issue" value="Cold" type="text">
         <br>
         <button type="submit">Submit form</button>
       </form>
+      <br>
       <p id="result"></p>
+    </div>
   </body>
 </html>
