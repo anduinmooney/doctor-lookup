@@ -15,7 +15,7 @@ _If I were to continue working on this application, I would like to add more sea
 ## Installation
 * _Clone repository from github_
 * _Open repository file with a program such as Atom_
-* _Go to https://developer.betterdoctor.com _
+* Go to https://developer.betterdoctor.com
 * _Make an account_
 * _Create API key_
 * _Create .env file within the uppermost root directory of this application_
